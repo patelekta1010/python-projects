@@ -1,0 +1,50 @@
+import turtle
+t = turtle.Pen()
+t.shape("turtle")
+turtle.Screen().bgcolor("light pink")
+t.color(1,1,0)
+t.pencolor("dark green")
+t.speed(3)
+t.fillcolor(1,1,0)
+
+
+def rectangle_small():
+    for i in range(0,1):
+        t.forward(100)
+        t.left(90)
+        t.forward(50)
+        t.left(90)
+        t.forward(100)
+        t.left(90)
+        t.forward(50)
+
+rectangle_small()
+t.up()
+t.forward(100)
+t.left(90)
+t.down()
+rectangle_small()
+t.up()
+t.forward(100)
+t.left(90)
+t.down()
+rectangle_small()
+t.right(90)
+t.forward(50)
+t.right(90)
+t.forward(250)
+t.right(90)
+t.forward(50)
+t.right(90)
+t.forward(250)
+t.up()
+t.left(90)
+t.forward(150)
+t.left(90)
+t.forward(260)
+t.down()
+
+for i in range(0,12):
+    t.forward(30)
+    t.left(210)
+
