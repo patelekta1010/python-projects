@@ -1,0 +1,17 @@
+books=["calculas","computer networks" ,"FICT", "file structure"]
+print(books[2])
+numbers=[4,6,9 ,2,1,8]
+print("original list= ",numbers)
+print(numbers)
+numbers.sort()
+print("sorted list= ",numbers)
+numbers.reverse()
+print("reversed list= ",numbers)
+print(numbers)
+print("specific position= ",numbers[2])
+numbers.append(23)
+print(numbers)
+numbers.insert(2,3) #.insert(index number ,no.you want to insert)
+print(numbers)
+tp=(1,2,3)
+print(tp)

@@ -1,0 +1,7 @@
+print("ENTER THE FIRST NUMBER")
+num1=input()
+print("ENTER THE SECOND NUMBER")
+num2=input()
+print("* ADDITION= ",int(num1)+int(num2), end="\n")
+print("* SUBTRACTION= ",int(num1)-int(num2))
+print("* MULTIPLICATION= ",int(num1)*int(num2))

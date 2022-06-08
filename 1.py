@@ -1,0 +1,1 @@
+print("python is the best language to be learn\n ekta")
